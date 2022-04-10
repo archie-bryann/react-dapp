@@ -27,7 +27,9 @@ module.exports = {
       chainId: 1337,
     },
     ropsten: {
+      // these ropsten url was infura
       url: "https://ropsten.infura.io/v3/2f90ccaf88014779a778bbd7332229a3",
+      //  this account_key is the private key that deploys this smart contract
       accounts: [`0x${process.env.ACCOUNT_KEY}`],
       // account key from ropsten account
       // private key is put in the faucet to fund the account
